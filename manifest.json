@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Pilasfolio Extension",
+  "description": "Pilasfolio Extension",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery-3.7.1.min.js",
+        "content-script.js"
+      ]
+    }
+  ]
+}
