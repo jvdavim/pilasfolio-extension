@@ -17,7 +17,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack/webpack.config.js"
+    "dev": "webpack --watch --config webpack.dev.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
