@@ -10,6 +10,7 @@
       ],
       "js": [
         "jquery-3.7.1.min.js",
+        "axios.min.js",
         "content-script.js"
       ]
     }
